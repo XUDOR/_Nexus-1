@@ -1,0 +1,83 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #d8dcd2;
+}
+
+header {
+  background-color: #44491e;
+  color: white;
+  text-align: left;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.grid-item {
+  background-color: white;
+  border: 1px solid #2d2c2a;
+  padding: 20px;
+  text-align: center;
+  word-wrap: break-word;
+  
+  transition: transform 0.2s, background-color 0.2s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #333; /* Default text color */
+}
+
+.grid-item:hover {
+  background-color: #617068; /* Hover background color */
+  color: #d8dcd2;
+}
+
+.grid-item:visited {
+  color: #333; /* Ensure visited links do not change color */
+}
+
+.grid-item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent */
+  font-size: 12pt;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  font-size: 12pt;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 600px) {
+  .grid-item {
+      background-color: #efefe6; /* Light blue for mobile */
+  }
+
+  .grid-item:active {
+      background-color: #add8e6; /* Darker blue when tapped */
+  }
+}
