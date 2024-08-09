@@ -5,7 +5,7 @@ const resources = [
       url: "https://www.linkedin.com/pulse/how-keep-your-job-search-track-amid-news-layoffs-andrew-seaman-vpywc/"
   },
   {
-      name: "Tech Interviews",
+      name: "Tech Interviews | algochurn ",
       url: "https://www.algochurn.com/"
   },
   {
@@ -28,18 +28,12 @@ const resources = [
       name: "Wellfound",
       url: "https://buff.ly/41hxrkI"
   },
-  {
-      name: "Remoteco",
-      url: "https://buff.ly/2C1gou3"
-  },
+
   {
       name: "Remoteok",
       url: "https://buff.ly/3KPOy5V"
   },
-  {
-      name: "YouTube - Python Tutorial",
-      url: "https://www.youtube.com/watch?v=kqtD5dpn9C8"
-  },
+
   {
       name: "The Forage - Design Simulations",
       url: "https://www.theforage.com/simulations?careers=design"
@@ -54,7 +48,7 @@ const resources = [
   },
   {
       name: "We Work Remotely",
-      url: "https://lnkd.in/dTwbuTCt"
+      url: "https://weworkremotely.com/"
   },
   {
       name: "ARC",
@@ -68,10 +62,7 @@ const resources = [
       name: "JustRemote",
       url: "https://justremote.co/"
   },
-  {
-      name: "AngelList",
-      url: "https://angel.co/"
-  },
+ 
   {
       name: "Jobspresso",
       url: "https://jobspresso.co/"
@@ -90,7 +81,7 @@ const resources = [
   },
   {
       name: "Careerflow.ai",
-      url: "https://lnkd.in/drNZrQkX"
+      url: "https://www.careerflow.ai/"
   },
   {
       name: "LeetCode",
@@ -98,11 +89,11 @@ const resources = [
   },
   {
       name: "HackerRank",
-      url: "https://lnkd.in/d322VBBq"
+      url: "https://www.hackerrank.com/"
   },
   {
       name: "HackerEarth",
-      url: "https://lnkd.in/dXy7SAcf"
+      url: "https://www.hackerearth.com/"
   },
   {
       name: "Codewars",
@@ -130,11 +121,11 @@ const resources = [
   },
   {
       name: "freeCodeCamp",
-      url: "https://lnkd.in/dGGmah9M"
+      url: "https://www.freecodecamp.org/"
   },
   {
       name: "GeeksforGeeks",
-      url: "https://lnkd.in/dveifGFn"
+      url: "https://www.geeksforgeeks.org/"
   },
   {
       name: "Comparably",
@@ -158,12 +149,9 @@ const resources = [
   },
   {
       name: "PaycheckCity Payroll",
-      url: "https://lnkd.in/de6hBaxP"
+      url: "https://www.paycheckcity.com/"
   },
-  {
-      name: "Google 9 Generative AI Courses",
-      url: "https://lnkd.in/gwUdaU-7"
-  },
+  
   {
       name: "Remote.co",
       url: "https://remote.co/"
