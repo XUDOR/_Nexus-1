@@ -47,9 +47,6 @@ header {
   color: #d8dcd2;
 }
 
-.grid-item:visited {
-  color: #e0eced; /* Ensure visited links do not change color */
-}
 
 .grid-item a {
   display: block;
